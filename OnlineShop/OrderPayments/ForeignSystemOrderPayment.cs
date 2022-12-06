@@ -4,7 +4,7 @@ namespace OnlineShop.OrderPayments
 {
     public class ForeignSystemOrderPayment : OrderPaymentMethod
     {
-        public ForeignSystemOrderPayment(User user) : base(user)
+        public ForeignSystemOrderPayment(OrderState order) : base(order)
         {
         }
 

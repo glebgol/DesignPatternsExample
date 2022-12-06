@@ -2,11 +2,11 @@
 {
     public abstract class OrderPaymentMethod
     {
-        protected User _user;
+        protected OrderState _order;
 
-        public OrderPaymentMethod(User user)
+        public OrderPaymentMethod(OrderState order)
         {
-            _user = user;
+            _order = order;
         }
 
         public decimal CalculateCost()

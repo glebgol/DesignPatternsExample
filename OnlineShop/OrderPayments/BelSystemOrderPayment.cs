@@ -4,7 +4,7 @@ namespace OnlineShop.OrderPayments
 {
     public class BelSystemOrderPayment : OrderPaymentMethod
     {
-        public BelSystemOrderPayment(User user) : base(user)
+        public BelSystemOrderPayment(OrderState order) : base(order)
         {
         }
 
